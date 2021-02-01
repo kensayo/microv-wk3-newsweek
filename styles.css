@@ -135,6 +135,14 @@ hr {
   }
 }
 
+.main {
+  padding: 400px;
+}
+
+footer {
+  padding-bottom: 50px;
+}
+
 .page-footer {
   background-color: aqua;
 }
