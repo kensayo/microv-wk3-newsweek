@@ -3,18 +3,53 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Using Bootstrap</title>
   </head>
   <body>
-    <nav class="navbar navbar-fixed navbar-light bg-light">
+    <nav class="navbar navbar-fixed navbar-light" style="background-color: #FF0000">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-      <img class="newsweek-logo" src="img/Newsweek_Logo.svg" alt="" width="100" height="100" class="d-inline-block align-top">
-      <a href="#">LOGIN</a>
-      <button class="btn btn-warning" type="button" name="button">Subscribe</button>
-    </a>
-  </div>
-</nav>
+        <p class="date">Wed, Jan 20, 2021</p>
+        <img class="newsweek-logo" src="img/Newsweek_Logo.svg" alt="newsweek logo" width="196" height="60" class="d-inline-block align-top">
+        <div class="login-sub">
+          <a class="login" href="#">LOGIN</a>
+          <button class="btn btn-warning" type="button" name="button">SUBSCRIBE <img class="right-arrow" src="img/chevron-right.svg" alt="right arrow"></button>
+        </div>
+        <img class="menu-icon" src="img/menu.svg" alt="menu collapsed">
+      </div>
+    </nav>
+    <nav class="navbar2 navbar-fixed">
+      <div class="nav-links">
+        <ul class="links-top">
+          <li><a class="links1" href="#">U.S. |</a></li>
+          <li><a class="links1" href="#">World |</a></li>
+          <li><a class="links1" href="#">Business |</a></li>
+          <li><a class="links1" href="#">Tech & Science |</a></li>
+          <li><a class="links1" href="#">Culture |</a></li>
+          <li><a class="links1" href="#">Newsgeek |</a></li>
+          <li><a class="links1" href="#">Sports |</a></li>
+          <li><a class="links1" href="#">Health |</a></li>
+          <li><a class="links1" href="#">The Debate |</a></li>
+          <li><a class="links1" href="#">Experts |</a></li>
+          <li><a class="links1" href="#">Vantage</a></li>
+          <img class="search" src="img/search.svg" alt="search icon">
+        </ul>
+        <hr>
+        <ul class="links-bottom">
+          <li><a class="links1" href="#">TRENDING</a></li>
+          <li><a class="links2" href="#">Joe Biden</a></li>
+          <li><a class="links2" href="#">Donald Trump</a></li>
+          <li><a class="links2" href="#">Inauguration</a></li>
+          <li><a class="links2" href="#">Coronavirus</a></li>
+          <li><a class="links2" href="#">Stimulus Package</a></li>
+          <li><a class="links2" href="#">Vaccine</a></li>
+          <li><a class="links2" href="#">Capitol Riots</a></li>
+        </ul>
+      </div>
+      <hr>
+    </nav>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
