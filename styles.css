@@ -11,3 +11,8 @@
 .page-footer {
   background-color: aqua;
 }
+
+li a:hover {
+  text-decoration: underline;
+  color: red;
+}
