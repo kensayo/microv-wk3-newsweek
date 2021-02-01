@@ -134,3 +134,12 @@ hr {
     margin-left: 0;
   }
 }
+
+.page-footer {
+  background-color: aqua;
+}
+
+li a:hover {
+  text-decoration: underline;
+  color: red;
+}
