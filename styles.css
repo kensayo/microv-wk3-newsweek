@@ -153,13 +153,18 @@ li a:hover {
 }
 
 .b-sr {
-  background-color: #F0E7E8;
+  background-color: #f0e7e8;
 }
 
 .opacity {
   opacity: 0.8;
 }
 
-.red {
-  color: red;
+.vs-container {
+  height: 5px;
+}
+
+.vs-icon {
+  width: 30px;
+  height: 30px;
 }
