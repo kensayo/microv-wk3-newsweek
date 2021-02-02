@@ -151,3 +151,15 @@ li a:hover {
   text-decoration: underline;
   color: red;
 }
+
+.b-sr {
+  background-color: #F0E7E8;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.red {
+  color: red;
+}
