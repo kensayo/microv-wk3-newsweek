@@ -1,129 +1,200 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Using Bootstrap</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-fixed navbar-light" style="background-color: #FF0000">
-      <div class="container-fluid">
-        <p class="date">Wed, Jan 20, 2021</p>
-        <img class="newsweek-logo d-inline-block align-top" src="img/Newsweek_Logo.svg" alt="newsweek logo" width="196" height="60">
-        <div class="login-sub">
-          <a class="login" href="#">LOGIN</a>
-          <button class="btn btn-warning" type="button" name="button">SUBSCRIBE <img class="right-arrow" src="img/chevron-right.svg" alt="right arrow"></button>
-        </div>
-        <img class="menu-icon" src="img/menu.svg" alt="menu collapsed">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Using Bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-fixed navbar-light" style="background-color: #FF0000">
+    <div class="container-fluid">
+      <p class="date">Wed, Jan 20, 2021</p>
+      <img class="newsweek-logo d-inline-block align-top" src="img/Newsweek_Logo.svg" alt="newsweek logo" width="196"
+        height="60">
+      <div class="login-sub">
+        <a class="login" href="#">LOGIN</a>
+        <button class="btn btn-warning" type="button" name="button">SUBSCRIBE <img class="right-arrow"
+            src="img/chevron-right.svg" alt="right arrow"></button>
       </div>
-    </nav>
-    <nav class="navbar2 navbar-fixed">
-      <div class="nav-links">
-        <ul class="links-top">
-          <li><a class="links1" href="#">U.S. |</a></li>
-          <li><a class="links1" href="#">World |</a></li>
-          <li><a class="links1" href="#">Business |</a></li>
-          <li><a class="links1" href="#">Tech & Science |</a></li>
-          <li><a class="links1" href="#">Culture |</a></li>
-          <li><a class="links1" href="#">Newsgeek |</a></li>
-          <li><a class="links1" href="#">Sports |</a></li>
-          <li><a class="links1" href="#">Health |</a></li>
-          <li><a class="links1" href="#">The Debate |</a></li>
-          <li><a class="links1" href="#">Experts |</a></li>
-          <li><a class="links1" href="#">Vantage</a></li>
-          <li><img class="search" src="img/search.svg" alt="search icon"></li>
-        </ul>
-        <hr>
-        <ul class="links-bottom">
-          <li><a class="links1" href="#">TRENDING</a></li>
-          <li><a class="links2" href="#">Joe Biden</a></li>
-          <li><a class="links2" href="#">Donald Trump</a></li>
-          <li><a class="links2" href="#">Inauguration</a></li>
-          <li><a class="links2" href="#">Coronavirus</a></li>
-          <li><a class="links2" href="#">Stimulus Package</a></li>
-          <li><a class="links2" href="#">Vaccine</a></li>
-          <li><a class="links2" href="#">Capitol Riots</a></li>
-        </ul>
-      </div>
+      <img class="menu-icon" src="img/menu.svg" alt="menu collapsed">
+    </div>
+  </nav>
+  <nav class="navbar2 navbar-fixed">
+    <div class="nav-links">
+      <ul class="links-top">
+        <li><a class="links1" href="#">U.S. |</a></li>
+        <li><a class="links1" href="#">World |</a></li>
+        <li><a class="links1" href="#">Business |</a></li>
+        <li><a class="links1" href="#">Tech & Science |</a></li>
+        <li><a class="links1" href="#">Culture |</a></li>
+        <li><a class="links1" href="#">Newsgeek |</a></li>
+        <li><a class="links1" href="#">Sports |</a></li>
+        <li><a class="links1" href="#">Health |</a></li>
+        <li><a class="links1" href="#">The Debate |</a></li>
+        <li><a class="links1" href="#">Experts |</a></li>
+        <li><a class="links1" href="#">Vantage</a></li>
+        <li><img class="search" src="img/search.svg" alt="search icon"></li>
+      </ul>
       <hr>
-    </nav>
-    <main class="container-fluid">
-      <!-- Mobile version -->
-      <div class="d-flex">
-        <!--Top Story-->
+      <ul class="links-bottom">
+        <li><a class="links1" href="#">TRENDING</a></li>
+        <li><a class="links2" href="#">Joe Biden</a></li>
+        <li><a class="links2" href="#">Donald Trump</a></li>
+        <li><a class="links2" href="#">Inauguration</a></li>
+        <li><a class="links2" href="#">Coronavirus</a></li>
+        <li><a class="links2" href="#">Stimulus Package</a></li>
+        <li><a class="links2" href="#">Vaccine</a></li>
+        <li><a class="links2" href="#">Capitol Riots</a></li>
+      </ul>
+    </div>
+    <hr>
+  </nav>
+  <main class="container-fluid">
+    <!-- Mobile version -->
+    <div class="d-flex container-flex">
+      <div class="row">
         <header class="p-2 d-flex flex-column justify-content-center border-bottom">
+          <!--Top Story-->
           <p class="fw-bold m-0 pt-2 pb-2 text-muted">TOP STORY</p>
           <div class="position-relative d-flex flex-column">
             <img src="img/top-img.webp" class="img-fluid" alt="Top Stories">
-            <a href="#" class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">POLITICS</a>
+            <a href="#"
+              class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">POLITICS</a>
           </div>
           <h3 class="fw-bold py-2 m-0">
             <a href="#" class="fw-bold">Joe Biden's First Executive Actions Undo Many of Donald Trump's</a>
           </h3>
-          <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first taken as he
+          <p>Actions related to the COVID-19 crisis, climate change and racial equality are to be among the first taken
+            as
+            he
             begins his tenure.</p>
         </header>
+        <!-- End top story-->
+        <!-- Featured Stories-->
+        <section class="p-2 d-flex flex-column justify-content-center border-bottom">
+          <p class="fw-bold m-0 pt-2 pb-2 text-muted">FEATURED STORIES</p>
+          <div class="position-relative d-flex flex-column">
+            <img src="img/featured-1.webp" class="img-fluid" alt="Story 1">
+            <a href="#" class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">U.S.</a>
+          </div>
+          <h3 class="fw-bold py-2 m-0">
+            <a href="#" class="fw-bold">The 73 People Pardoned by Donald Trump on His Last Day As President</a>
+          </h3>
+          <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper
+            Lil Wayne.</p>
+          <div class="position-relative d-flex flex-column">
+            <img src="img/featured-1.webp" class="img-fluid" alt="Story 1">
+            <a href="#" class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">U.S.</a>
+          </div>
+          <h3 class="fw-bold py-2 m-0">
+            <a href="#" class="fw-bold">The 73 People Pardoned by Donald Trump on His Last Day As President</a>
+          </h3>
+          <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper
+            Lil Wayne.</p>
+          <div class="position-relative d-flex flex-column">
+            <img src="img/featured-1.webp" class="img-fluid" alt="Story 1">
+            <a href="#" class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">U.S.</a>
+          </div>
+          <h3 class="fw-bold py-2 m-0">
+            <a href="#" class="fw-bold">The 73 People Pardoned by Donald Trump on His Last Day As President</a>
+          </h3>
+          <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper
+            Lil Wayne.</p>
+          <div class="position-relative d-flex flex-column">
+            <img src="img/featured-1.webp" class="img-fluid" alt="Story 1">
+            <a href="#" class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">U.S.</a>
+          </div>
+          <h3 class="fw-bold py-2 m-0">
+            <a href="#" class="fw-bold">The 73 People Pardoned by Donald Trump on His Last Day As President</a>
+          </h3>
+          <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper
+            Lil Wayne.</p>
+          <div class="position-relative d-flex flex-column">
+            <img src="img/featured-1.webp" class="img-fluid" alt="Story 1">
+            <a href="#" class="position-absolute px-3 fw-bold bottom-0 text-main opacity text-danger bg-white">U.S.</a>
+          </div>
+          <h3 class="fw-bold py-2 m-0">
+            <a href="#" class="fw-bold">The 73 People Pardoned by Donald Trump on His Last Day As President</a>
+          </h3>
+          <p>Notable people pardoned by Trump today include former White House chief strategist Steve Bannon and rapper
+            Lil Wayne.</p>
+        </section>
+        <!-- End Featured Stories Section -->
+        <!-- The Debate -->
+        <section class="p-2 d-flex flex-column justify-content-center border-bottom">
+          <p class="fw-bold m-0 pt-2 pb-2 text-muted">THE DEBATE</p>
+          
+        </section>
+        <!-- End The Debate -->
       </div>
-      <!-- End mobile version -->
-    </main>
-
-<footer class="container-fluid text-muted">
-  <div class="d-flex justify-content-between align-items-center flex-wrap mt-1 mb-1">
-    <div class="d-flex align-items-center flex-wrap">
-      <a href="#"><img src="img/footer-newsweek.png" alt="Logo"></a>
-      <p class="m-0">© 2020 NEWSWEEK DIGITAL LLC</p>
     </div>
-    <div class="mt-1">
-      <span class="p-1"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></span>
-      <span class="p-1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></span>
-      <span class="p-1"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></span>
-      <span class="p-1"><i class="fa fa-tumblr fa-2x" aria-hidden="true"></i></span>
-      <span class="p-1"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></span>
+    <!-- End mobile version -->
+  </main>
+
+  <footer class="container-fluid text-muted">
+    <div class="d-flex justify-content-between align-items-center flex-wrap mt-1 mb-1">
+      <div class="d-flex align-items-center flex-wrap">
+        <a href="#"><img src="img/footer-newsweek.png" alt="Logo"></a>
+        <p class="m-0">© 2020 NEWSWEEK DIGITAL LLC</p>
+      </div>
+      <div class="mt-1">
+        <span class="p-1"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></span>
+        <span class="p-1"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></span>
+        <span class="p-1"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></span>
+        <span class="p-1"><i class="fa fa-tumblr fa-2x" aria-hidden="true"></i></span>
+        <span class="p-1"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></span>
+      </div>
     </div>
-  </div>
 
-  <div class="border-top mt-1">
-    <ul class="d-flex flex-wrap list-group list-group-horizontal">
-      <li class="list-group-item border-0 ps-0 text-muted fw-bold">Editions:</li>
-      <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">日本</a></li>
-      <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">U.S Edition</a></li>
-      <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Pakistan</a></li>
-      <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Polska</a></li>
-      <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Romania</a></li>
-    </ul>
+    <div class="border-top mt-1">
+      <ul class="d-flex flex-wrap list-group list-group-horizontal">
+        <li class="list-group-item border-0 ps-0 text-muted fw-bold">Editions:</li>
+        <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">日本</a></li>
+        <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">U.S Edition</a>
+        </li>
+        <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Pakistan</a></li>
+        <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Polska</a></li>
+        <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Romania</a></li>
+      </ul>
 
-    <ul class="d-flex flex-wrap list-group list-group-horizontal">
-      <li class="list-group-item border-0 border-start p-0"><a class="pe-2 border-end text-muted text-decoration-none"
-          href="#">About Us</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Correction</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Contact Us</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Editorial Guidelines</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Advertise</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Copyright</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Terms and Conditions</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Privacy Policies</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Cookie Policies</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Terms Of Sale</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Archive</a></li>
-      <li class="list-group-item border-0 border-start p-0"><a
-          class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Announcements</a></li>
-    </ul>
-  </div>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  </body>
+      <ul class="d-flex flex-wrap list-group list-group-horizontal">
+        <li class="list-group-item border-0 border-start p-0"><a class="pe-2 border-end text-muted text-decoration-none"
+            href="#">About Us</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Correction</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Contact Us</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Editorial Guidelines</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Advertise</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Copyright</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Terms and Conditions</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Privacy Policies</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Cookie Policies</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Terms Of Sale</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Archive</a></li>
+        <li class="list-group-item border-0 border-start p-0"><a
+            class="ps-2 pe-2 border-end text-muted text-decoration-none" href="#">Announcements</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
