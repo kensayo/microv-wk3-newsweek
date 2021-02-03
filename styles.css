@@ -208,3 +208,14 @@ li a:hover {
     display: flex;
   }
 }
+
+.img-a {
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+}
+
+.img-b {
+  position: relative;
+  right: 40px;
+}
