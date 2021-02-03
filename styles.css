@@ -168,3 +168,23 @@ li a:hover {
   width: 30px;
   height: 30px;
 }
+
+.ms-image {
+  height: 100px;
+  width: 100px;
+}
+
+.ms-p {  
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.sign-up-form {
+  width: 300px;
+  height: auto;  
+}
+
+.mini-logo {
+  height: 30px;
+  width: 30px;
+}
