@@ -1,59 +1,31 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project 3: Using Bootstrap
 
-> One paragraph statement about the project.
+> In this project, we will build a replica of the Newsweek website. Specifically, we will use [this](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) snapshot of the webarchive from January 20, 2021.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](img/Screenshotp3.png)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+[Live Demo Link](https://raw.githack.com/kensayo/microv-wk3-newsweek/second/index.html)
 
 
 ## Authors
 
-👤 **Author1**
+👤 Kenny Ortega
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@kensayo](https://github.com/kensayo)
 
-👤 **Author2**
+👤 Shay Craig
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@craigs40](https://github.com/craigs40)
 
 ## 🤝 Contributing
 
@@ -65,12 +37,7 @@ Feel free to check the [issues page](issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
