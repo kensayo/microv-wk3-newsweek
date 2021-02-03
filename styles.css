@@ -27,20 +27,14 @@ nav {
   margin-right: 70px;
 }
 
-.login-sub {
-  display: flex;
-}
-
 .login {
   color: white;
-  text-decoration: none;
   font-size: 16px;
   margin-top: 4px;
   margin-right: 10px;
 }
 
 .btn {
-  display: block;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 15px;
@@ -87,6 +81,11 @@ a {
   width: 20px;
 }
 
+.user {
+  height: 20px;
+  width: 30px;
+}
+
 .links1,
 .links2 {
   font-size: 16px;
@@ -102,8 +101,12 @@ hr {
   color: #ccc;
 }
 
-@media screen and (min-width: 800px) and (max-width: 1190px) {
+@media screen and (min-width: 700px) and (max-width: 1200px) {
   .menu-icon {
+    display: none;
+  }
+
+  .user {
     display: none;
   }
 
@@ -117,7 +120,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
   .navbar2 {
     display: none;
   }
@@ -133,10 +136,18 @@ hr {
     width: 100px;
     margin-left: 0;
   }
+
+  .login {
+    display: none;
+  }
 }
 
 .main {
   padding: 400px;
+}
+
+.travel {
+  display: none;
 }
 
 footer {
@@ -182,6 +193,11 @@ li a:hover {
 .my-turn-text {
   display: block;
   font-size: 16px;
+}
+
+.opinion-img {
+  height: 60px;
+  width: 60px;
 }
 
 .sign-up-form {
