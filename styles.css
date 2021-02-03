@@ -179,6 +179,11 @@ li a:hover {
   line-height: 15px;
 }
 
+.my-turn-text {
+  display: block;
+  font-size: 16px;
+}
+
 .sign-up-form {
   width: 300px;
   height: auto;
