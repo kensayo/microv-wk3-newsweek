@@ -9,6 +9,7 @@ nav {
 .container-fluid {
   display: block;
   justify-content: space-between;
+  max-width: 1380px;
 }
 
 .date {
@@ -208,4 +209,18 @@ li a:hover {
 .mini-logo {
   height: 30px;
   width: 30px;
+}
+
+.mobile {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .mobile {
+    display: flex;
+  }
+
+  .desktop-tablet {
+    display: flex;
+  }
 }
