@@ -193,8 +193,11 @@ li a:hover {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .mobile {
+    display: flex;
+  }
+  .desktop-tablet {
     display: flex;
   }
 }
