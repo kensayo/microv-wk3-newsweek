@@ -151,3 +151,40 @@ li a:hover {
   text-decoration: underline;
   color: red;
 }
+
+.b-sr {
+  background-color: #f0e7e8;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.vs-container {
+  height: 5px;
+}
+
+.vs-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.ms-image {
+  height: 100px;
+  width: 100px;
+}
+
+.ms-p {
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.sign-up-form {
+  width: 300px;
+  height: auto;
+}
+
+.mini-logo {
+  height: 30px;
+  width: 30px;
+}
