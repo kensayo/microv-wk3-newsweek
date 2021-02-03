@@ -4,7 +4,7 @@
 
 > In this project, we will build a replica of the Newsweek website. Specifically, we will use [this](https://web.archive.org/web/20210120125445/https://www.newsweek.com/) snapshot of the webarchive from January 20, 2021.
 
-![screenshot](img/Screenshotp3.png)
+![screenshot](microv-wk3-newsweek/img/Screenshotp3.png)
 
 ## Built With
 
