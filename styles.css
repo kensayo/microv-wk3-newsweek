@@ -147,7 +147,28 @@ hr {
   padding: 400px;
 }
 
+.features {
+  background-color: #f72210;
+  color: white;
+  font-weight: bold;
+}
+
+.opinion {
+  color: #f72210;
+  font-weight: bold;
+}
+
+.mag-cap {
+  font-weight: bold;
+}
+
+.inTheMagazine {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 footer {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
