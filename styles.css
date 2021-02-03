@@ -9,6 +9,7 @@ nav {
 .container-fluid {
   display: block;
   justify-content: space-between;
+  max-width: 1380px;
 }
 
 .date {
