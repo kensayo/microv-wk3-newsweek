@@ -262,3 +262,7 @@ a:hover {
 .subscribe {
   max-width: 650px;
 }
+
+.gray {
+  color: #666;
+}
