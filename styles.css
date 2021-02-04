@@ -144,19 +144,18 @@ hr {
   }
 }
 
-.main {
-  padding: 400px;
+.inTheMagImg {
+  height: 280px;
+  width: 257px;
 }
 
 .features {
   background-color: #f72210;
   color: white;
-  font-weight: bold;
 }
 
 .opinion {
   color: #f72210;
-  font-weight: bold;
 }
 
 .ep-img {
