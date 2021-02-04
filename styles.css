@@ -251,3 +251,39 @@ a:hover {
     display: flex;
   }
 }
+
+.img-a {
+  position: relative;
+  left: 40px;
+  bottom: 20px;
+}
+
+.img-b {
+  position: relative;
+  right: 40px;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.img-subscribe-container {
+  height: 250px;
+  margin-top: 30px;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.text-red {
+  color: red;
+}
+
+.bg-gray {
+  background-color: #f4f5f6;
+}
+
+.subscribe {
+  max-width: 650px;
+}
