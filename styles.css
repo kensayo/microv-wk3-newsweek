@@ -1,5 +1,6 @@
-nav {
-  font-family: 'Roboto', sans-serif;
+nav,
+body {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .navbar2 {
@@ -158,35 +159,37 @@ hr {
   font-weight: bold;
 }
 
-.mag-cap {
-  font-weight: bold;
+.ep-img {
+  height: 170px;
+  width: 250px;
 }
 
-.inTheMagazine {
-  font-weight: bold;
-  margin-top: 10px;
+.ep-cap {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.editors-picks-header {
-  margin-top: 50px;
+.inMagTitle {
+  font-size: 22px;
 }
 
-.editors-pick {
-  margin-top: 10px;
+.news-main {
+  height: 100px;
+  width: 120px;
 }
 
-footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.news-main2 {
+  height: 230px;
+  width: 350px;
 }
 
 .page-footer {
   background-color: aqua;
 }
 
-li a:hover {
+a:hover {
   text-decoration: underline;
-  color: red;
+  text-decoration-color: red;
+  color: black;
 }
 
 .b-sr {
