@@ -3,6 +3,10 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.container-fluid {
+  max-width: 1320px;
+}
+
 .date {
   color: white;
   font-size: 15px;
