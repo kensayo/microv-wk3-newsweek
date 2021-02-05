@@ -141,8 +141,7 @@ a:hover {
 }
 
 .ms-image {
-  height: 100px;
-  width: 100px;
+  max-width: initial;
 }
 
 .ms-p {
@@ -219,9 +218,6 @@ a:hover {
 }
 
 @media screen and (min-width: 700px) and (max-width: 900px) {
-  .mobile {
-    display: flex;
-  }
 
   .desktop-tablet {
     display: flex;

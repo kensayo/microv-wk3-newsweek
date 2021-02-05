@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/kensayo/microv-wk3-newsweek/second/index.html)
+[Live Demo Link](https://kensayo.github.io/microv-wk3-newsweek/)
 
 
 ## Authors
