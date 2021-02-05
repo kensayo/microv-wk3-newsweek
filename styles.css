@@ -193,7 +193,7 @@ a:hover {
   }
 
   .ranking-insight {
-    max-width: 400px;    
+    max-width: 400px;
   }
 }
 
@@ -216,7 +216,6 @@ a:hover {
   .login {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 900px) {
