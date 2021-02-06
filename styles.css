@@ -213,6 +213,11 @@ a:hover {
     width: 358px;
   }
 
+  .newsletter {
+    display: flex;
+    flex-flow: column;
+  }
+
   footer {
     font-size: 10px;
   }
@@ -247,6 +252,16 @@ a:hover {
 
   .sub-end {
     align-items: flex-start;
+  }
+
+  .news-main {
+    height: 110px;
+    width: 310px;
+  }
+
+  .newsletter-img {
+    height: 300px;
+    width: 250px;
   }
 }
 
