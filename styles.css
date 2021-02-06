@@ -101,7 +101,7 @@ hr {
 
 .news-main {
   height: 100px;
-  width: 120px;
+  width: 200px;
 }
 
 .news-main2 {
@@ -203,6 +203,19 @@ a:hover {
     height: 20px;
     width: 20px;
   }
+
+  .aside {
+    padding-top: 20px;
+  }
+
+  .news-main {
+    height: 200px;
+    width: 358px;
+  }
+
+  footer {
+    font-size: 10px;
+  }
 }
 
 @media screen and (min-width: 641px) and (max-width: 1007px) {
@@ -230,6 +243,10 @@ a:hover {
 
   .user {
     display: none;
+  }
+
+  .sub-end {
+    align-items: flex-start;
   }
 }
 
