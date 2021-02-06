@@ -10,50 +10,49 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <title>Using Bootstrap</title>
 </head>
 
 <body class="container-fluid bg-grey">
   <nav class="navbar navbar-fixed navbar-light bg-red">
     <div class="container-fluid">
-      <p class="date mt-5">Wed, Jan 20, 2021</p>
-      <img class="newsweek-logo d-inline-block align-top" src="./img/Newsweek_Logo.svg" alt="newsweek logo" width="196"
-        height="60">
-      <div class="login-sub mt-4">
-        <a class="login" href="#">LOGIN</a>
-        <button class="btn btn-warning" type="button" name="button">SUBSCRIBE <img class="right-arrow"
+      <p class="date">Wed, Jan 20, 2021</p>
+      <img class="newsweek-logo d-inline-block align-top" src="./img/Newsweek_Logo.svg" alt="newsweek logo">
+      <div class="login-sub">
+        <a class="login fw-bold" href="#">LOGIN</a>
+        <img class="user" src="./img/user.svg" alt="user icon">
+        <button class="btn btn-warning fw-bold" type="button" name="button">SUBSCRIBE <img class="right-arrow mb-1"
             src="./img/chevron-right.svg" alt="right arrow"></button>
+          <img class="menu-icon" src="./img/menu.svg" alt="menu collapsed">
       </div>
-      <img class="menu-icon" src="./img/menu.svg" alt="menu collapsed">
     </div>
   </nav>
   <nav class="navbar2 navbar-fixed">
     <div class="nav-links w-100 pt-3">
-      <ul class="links-top d-flex justify-content-center fw-bold">
-        <li><a class="links1" href="#">U.S. |</a></li>
-        <li><a class="links1" href="#">World |</a></li>
-        <li><a class="links1" href="#">Business |</a></li>
-        <li><a class="links1" href="#">Tech & Science |</a></li>
-        <li><a class="links1" href="#">Culture |</a></li>
-        <li><a class="links1" href="#">Newsgeek |</a></li>
-        <li><a class="links1" href="#">Sports |</a></li>
-        <li><a class="links1" href="#">Health |</a></li>
-        <li><a class="links1" href="#">The Debate |</a></li>
-        <li><a class="links1" href="#">Experts |</a></li>
-        <li><a class="links1" href="#">Vantage</a></li>
+      <ul class="list-unstyled links-top d-flex justify-content-center fw-bold">
+        <li><a class="links1 text-decoration-none" href="#">U.S. |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">World |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Business |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Tech & Science |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Culture |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Newsgeek |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Sports |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Health |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">The Debate |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Experts |</a></li>
+        <li><a class="links1 text-decoration-none" href="#">Vantage</a></li>
         <li><img class="search" src="./img/search.svg" alt="search icon"></li>
       </ul>
       <hr>
-      <ul class="links-bottom d-flex justify-content-center fw-bold">
-        <li><a class="links1" href="#">TRENDING</a></li>
-        <li><a class="links2" href="#">Joe Biden</a></li>
-        <li><a class="links2" href="#">Donald Trump</a></li>
-        <li><a class="links2" href="#">Inauguration</a></li>
-        <li><a class="links2" href="#">Coronavirus</a></li>
-        <li><a class="links2" href="#">Stimulus Package</a></li>
-        <li><a class="links2" href="#">Vaccine</a></li>
-        <li><a class="links2" href="#">Capitol Riots</a></li>
+      <ul class="list-unstyled links-bottom d-flex justify-content-center fw-bold">
+        <li><a class="links1 text-decoration-none" href="#">TRENDING</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Joe Biden</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Donald Trump</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Inauguration</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Coronavirus</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Stimulus Package</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Vaccine</a></li>
+        <li><a class="links2 text-decoration-none" href="#">Capitol Riots</a></li>
       </ul>
     </div>
     <hr>
@@ -440,7 +439,7 @@
         <!-- End Culture & Travel -->
         <!-- Sign up-->
         <div class="d-flex justify-content-center align-items-center">
-          <form class="sign-up-form bg-light border border-2 mt-5 mb-5 p-4 d-flex flex-column bg-danger">
+          <form class="sign-up-form bg-light border border-2 mt-5 mb-5 p-4 d-flex flex-column bg-danger h-auto">
             <div class="d-flex align-items-center flex-row">
               <a href="#"><img src="./img/mini-logo.png" class="m-2 img-fluid mini-logo" alt="mini-logo"></a>
               <h6>START YOUR DAY WITH OUR TOP 5 ARTICLES</h6>
@@ -1003,7 +1002,7 @@
 
       <div class="inTheMagazineTop container-fluid">
         <div class="in-mag-header d-flex justify-content-center pt-2">
-          <a href="#"><img class="img-fluid p-1 animate__animated animate__bounce animate__infinite" src="./img/mini-logo.png" alt="Newsweek Logo"></a>
+          <a href="#"><img class="img-fluid p-1" src="./img/mini-logo.png" alt="Newsweek Logo"></a>
           <h5 class="inTheMagazine fw-bold m-2">IN THE MAGAZINE</h5>
         </div>
         <hr>
@@ -1202,7 +1201,7 @@
           </div>
           <div class="col-md-4 d-flex">
             <div>
-              <ul>
+              <ul class="list-unstyled">
                 <li class="flex-xs">
                   <div class="d-flex justify-content-start">
                     <a href="#"><img src="./img/tiger-king.jpg" class="img-fluid news-main me-2" alt="Tiger"></a>
@@ -1257,7 +1256,7 @@
           </div>
           <div class="col-md-4 d-flex">
             <div>
-              <ul>
+              <ul class="list-unstyled">
                 <li class="flex-xs">
                   <div class="d-flex justify-content-start">
                     <a href="#"><img src="./img/nz.jpg" class="img-fluid news-main me-2" alt="New Zealand"></a>
@@ -1310,7 +1309,7 @@
           </div>
           <div class="col-md-4 d-flex">
             <div>
-              <ul>
+              <ul class="list-unstyled">
                 <li class="flex-xs">
                   <div class="d-flex justify-content-start">
                     <a href="#"><img src="./img/capitol-riot.jpg" class="img-fluid news-main me-2" alt="Capitol Riot"></a>
@@ -1363,7 +1362,7 @@
           </div>
           <div class="col-md-4 d-flex">
             <div>
-              <ul>
+              <ul class="list-unstyled">
                 <li class="flex-xs">
                   <div class=" d-flex justify-content-start">
                     <a href="#"><img src="./img/biden.jpg" class="img-fluid news-main me-2" alt="Joe Biden"></a>
@@ -1468,7 +1467,7 @@
         <li class="list-group-item border-0 ps-0"><a class="text-muted text-decoration-none" href="#">Romania</a></li>
       </ul>
 
-      <ul class="d-flex flex-wrap list-group list-group-horizontal">
+      <ul class="d-flex flex-wrap list-group list-group-horizontal list-unstyled">
         <li class="list-group-item border-0 border-start p-0"><a class="pe-2 border-end text-muted text-decoration-none"
             href="#">About Us</a></li>
         <li class="list-group-item border-0 border-start p-0"><a
