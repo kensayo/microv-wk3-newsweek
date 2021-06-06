@@ -22,6 +22,8 @@
 👤 Kenny Ortega
 
 - GitHub: [@kensayo](https://github.com/kensayo)
+- Twitter: [@kensayo](https://twitter.com/kensayo)
+- LinkedIn: [Kenny Ortega](vhttps://www.linkedin.com/in/kennyortega/)
 
 👤 Shay Craig
 
